@@ -1,0 +1,212 @@
+﻿{
+    "ntfs":  {
+                 "fs":  "NTFS",
+                 "offset":  65536,
+                 "size":  58720256,
+                 "bulkCount":  300,
+                 "files":  [
+                               {
+                                   "path":  "hello.txt",
+                                   "sha256":  "8e7c52eb1a8c7a50e3fa4292833945f8024b6a9b62f15f705b0db32421a874e8",
+                                   "size":  30,
+                                   "kind":  "active"
+                               },
+                               {
+                                   "path":  "한글 폴더\\보고서.txt",
+                                   "sha256":  "52d689fc300266b80e776044d9a2d459f3e9c8bc57f3f88b3891fc6cb41a7328",
+                                   "size":  44000,
+                                   "kind":  "active"
+                               },
+                               {
+                                   "path":  "docs\\sub\\deep\\random.bin",
+                                   "sha256":  "9dfc331572434c46afe40eeb510bad7c4e2d66fd03ed1e71364d2f8a30a8c2bd",
+                                   "size":  300000,
+                                   "kind":  "active"
+                               },
+                               {
+                                   "path":  "media\\photo.jpg",
+                                   "sha256":  "35cb7e7299aca67cbcaeecc21e43691b6dc3ad81bc48c336267a3d6bb812637f",
+                                   "size":  120000,
+                                   "kind":  "active"
+                               },
+                               {
+                                   "path":  "media\\manual.pdf",
+                                   "sha256":  "5dd18196268a0702a1c7cf0d7a6d6bbf5d6d22ee5f804194be76ff51b41f6c5c",
+                                   "size":  80000,
+                                   "kind":  "active"
+                               },
+                               {
+                                   "path":  "a-very-long-file-name-that-does-not-fit-in-eight-dot-three.dat",
+                                   "sha256":  "9afa2d5c89008fe5052247ee6e8b7a325c7730dddb7dbecc93d2ff459101f1f0",
+                                   "size":  5000,
+                                   "kind":  "active"
+                               },
+                               {
+                                   "path":  "to-delete\\deleted-small.txt",
+                                   "sha256":  "5c8ab3c0a49dcf165ad5b60a82d5644b1d83f3372a2d3c7020e414c142f573cb",
+                                   "size":  23,
+                                   "kind":  "deleted"
+                               },
+                               {
+                                   "path":  "to-delete\\deleted-big.bin",
+                                   "sha256":  "7526769d91d36178b9711cea808633211e400f142c458c4a0f2b811bd51254e6",
+                                   "size":  250000,
+                                   "kind":  "deleted"
+                               },
+                               {
+                                   "path":  "keep\\removed-photo.jpg",
+                                   "sha256":  "874ac3f8b6bbf235ff16628ee1dd68c591d9c8a56ef2870e2c7ba96859f719df",
+                                   "size":  90000,
+                                   "kind":  "deleted"
+                               },
+                               {
+                                   "path":  "compressed\\lznt1.txt",
+                                   "sha256":  "6e3a85895f1be8d50826e726d728b6c256454011ecef53ddacd01369059c2c40",
+                                   "size":  1195870,
+                                   "kind":  "active"
+                               },
+                               {
+                                   "path":  "sparse.bin",
+                                   "sha256":  "eaee72ef0c48a952ae6a098fa4f73e360a0e51ed25252295ec6bc2851a18daf0",
+                                   "size":  3000000,
+                                   "kind":  "active"
+                               },
+                               {
+                                   "path":  "frag-a.bin",
+                                   "sha256":  "381621650bc503cb4effbe3d9377b2e25e5bddb393ffde7a45edabdbd73dde40",
+                                   "size":  6144000,
+                                   "kind":  "active"
+                               },
+                               {
+                                   "path":  "frag-b.bin",
+                                   "sha256":  "8c7e62c75ad95da14e6d8c2f77ff012e34cd5cff03aabeab93b35e896bd665c8",
+                                   "size":  6144000,
+                                   "kind":  "active"
+                               }
+                           ]
+             },
+    "exfat":  {
+                  "fs":  "exFAT",
+                  "offset":  58785792,
+                  "size":  16777216,
+                  "bulkCount":  300,
+                  "files":  [
+                                {
+                                    "path":  "hello.txt",
+                                    "sha256":  "8e7c52eb1a8c7a50e3fa4292833945f8024b6a9b62f15f705b0db32421a874e8",
+                                    "size":  30,
+                                    "kind":  "active"
+                                },
+                                {
+                                    "path":  "한글 폴더\\보고서.txt",
+                                    "sha256":  "52d689fc300266b80e776044d9a2d459f3e9c8bc57f3f88b3891fc6cb41a7328",
+                                    "size":  44000,
+                                    "kind":  "active"
+                                },
+                                {
+                                    "path":  "docs\\sub\\deep\\random.bin",
+                                    "sha256":  "c14272ebd451c4eff41cf956987a39cb60f5f409ab716fd59ebdfd0d24e87cd6",
+                                    "size":  300000,
+                                    "kind":  "active"
+                                },
+                                {
+                                    "path":  "media\\photo.jpg",
+                                    "sha256":  "0f39ed4416b60308b4adfddfef151e38f75b97d7f01e2b9a0924213cf71f8f15",
+                                    "size":  120000,
+                                    "kind":  "active"
+                                },
+                                {
+                                    "path":  "media\\manual.pdf",
+                                    "sha256":  "6849869318f7ea6dd94adf417aa5ab5a3736a0f8ee7a2c540c2f0acab2f63b8c",
+                                    "size":  80000,
+                                    "kind":  "active"
+                                },
+                                {
+                                    "path":  "a-very-long-file-name-that-does-not-fit-in-eight-dot-three.dat",
+                                    "sha256":  "902375600aec500a707240a0e34acceb1f197c15efbfd4a2d9ae8f77fdd9d366",
+                                    "size":  5000,
+                                    "kind":  "active"
+                                },
+                                {
+                                    "path":  "to-delete\\deleted-small.txt",
+                                    "sha256":  "5c8ab3c0a49dcf165ad5b60a82d5644b1d83f3372a2d3c7020e414c142f573cb",
+                                    "size":  23,
+                                    "kind":  "deleted"
+                                },
+                                {
+                                    "path":  "to-delete\\deleted-big.bin",
+                                    "sha256":  "fe5c494f8cdf2a74931c1752d5d001e548a941182ec52e817835220d2873ea81",
+                                    "size":  250000,
+                                    "kind":  "deleted"
+                                },
+                                {
+                                    "path":  "keep\\removed-photo.jpg",
+                                    "sha256":  "8b19728cbdea1e4eda0505689d70f1805cddcc5ff712522bb3ab27c98917c784",
+                                    "size":  90000,
+                                    "kind":  "deleted"
+                                }
+                            ]
+              },
+    "fat32":  {
+                  "fs":  "FAT32",
+                  "offset":  75563008,
+                  "size":  41943040,
+                  "bulkCount":  300,
+                  "files":  [
+                                {
+                                    "path":  "hello.txt",
+                                    "sha256":  "8e7c52eb1a8c7a50e3fa4292833945f8024b6a9b62f15f705b0db32421a874e8",
+                                    "size":  30,
+                                    "kind":  "active"
+                                },
+                                {
+                                    "path":  "한글 폴더\\보고서.txt",
+                                    "sha256":  "52d689fc300266b80e776044d9a2d459f3e9c8bc57f3f88b3891fc6cb41a7328",
+                                    "size":  44000,
+                                    "kind":  "active"
+                                },
+                                {
+                                    "path":  "docs\\sub\\deep\\random.bin",
+                                    "sha256":  "2452fef04c8564851856cd9e0d4b9990ca518c9bd669067bb5bde7cb7ee0b477",
+                                    "size":  300000,
+                                    "kind":  "active"
+                                },
+                                {
+                                    "path":  "media\\photo.jpg",
+                                    "sha256":  "94b93a0a8761dddcf49559a1f7bb56b02f0369f2b49d8a882e0c9781ed3dbce9",
+                                    "size":  120000,
+                                    "kind":  "active"
+                                },
+                                {
+                                    "path":  "media\\manual.pdf",
+                                    "sha256":  "f9dd02f6d8296f1b3016943c5ab11ae9aefc392ae1a6cf65f92fd846e38e7a5e",
+                                    "size":  80000,
+                                    "kind":  "active"
+                                },
+                                {
+                                    "path":  "a-very-long-file-name-that-does-not-fit-in-eight-dot-three.dat",
+                                    "sha256":  "ecf1be5622119897bd00b247e93f2f53cb05f9d1495911f4ab0bdad72dbc4b1c",
+                                    "size":  5000,
+                                    "kind":  "active"
+                                },
+                                {
+                                    "path":  "to-delete\\deleted-small.txt",
+                                    "sha256":  "5c8ab3c0a49dcf165ad5b60a82d5644b1d83f3372a2d3c7020e414c142f573cb",
+                                    "size":  23,
+                                    "kind":  "deleted"
+                                },
+                                {
+                                    "path":  "to-delete\\deleted-big.bin",
+                                    "sha256":  "cf53c69930f84e19469987d3d4d4a2c33b6a6a97d22b5df10958e66e24c80a4e",
+                                    "size":  250000,
+                                    "kind":  "deleted"
+                                },
+                                {
+                                    "path":  "keep\\removed-photo.jpg",
+                                    "sha256":  "3f5eac7d92e41ab5ef2c5636b37aa505bf59d48cb0d6577426f7095ef92ed667",
+                                    "size":  90000,
+                                    "kind":  "deleted"
+                                }
+                            ]
+              }
+}

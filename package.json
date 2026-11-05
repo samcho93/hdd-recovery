@@ -1,0 +1,57 @@
+{
+  "name": "hdd-recovery",
+  "productName": "HDD Recovery",
+  "version": "0.1.0",
+  "description": "파일시스템이 손상된 HDD의 데이터 복구, 파일시스템 복원, 포맷/분할/통합을 지원하는 디스크 도구",
+  "author": "samcho93",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "npm run build && electron .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "npm run build && node scripts/e2e.mjs",
+    "test:integration": "esbuild scripts/integration.ts --bundle --platform=node --target=node20 --outfile=test-output/integration.cjs --log-level=warning && node test-output/integration.cjs",
+    "dist": "npm run build && electron-builder --win --publish never",
+    "fixtures": "powershell -ExecutionPolicy Bypass -File scripts/make-fixtures.ps1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8",
+    "esbuild": "^0.24.0",
+    "playwright-core": "^1.49.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "build": {
+    "appId": "com.samcho93.hddrecovery",
+    "productName": "HDD Recovery",
+    "copyright": "Copyright © 2026 samcho93",
+    "directories": { "output": "release" },
+    "files": ["dist/**/*", "package.json"],
+    "win": {
+      "target": [
+        { "target": "nsis", "arch": ["x64"] },
+        { "target": "portable", "arch": ["x64"] }
+      ],
+      "requestedExecutionLevel": "requireAdministrator",
+      "artifactName": "HDD-Recovery-${version}-${name}-${arch}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowToChangeInstallationDirectory": true,
+      "artifactName": "HDD-Recovery-Setup-${version}.${ext}"
+    },
+    "portable": {
+      "artifactName": "HDD-Recovery-Portable-${version}.${ext}"
+    }
+  }
+}
